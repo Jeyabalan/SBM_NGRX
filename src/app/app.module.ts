@@ -9,6 +9,8 @@ import { RegistrationComponent } from './registration/registration.component';
 import { AddRoomComponent } from './room/add-room/add-room.component';
 import { EditDeleteRoomComponent } from './room/edit-delete-room/edit-delete-room.component';
 import { RoomDetailsGridComponent } from './room/room-details-grid/room-details-grid.component';
+import { AddTenantComponent } from './tenant/add-tenant/add-tenant.component';
+import { EditDeleteTenantComponent } from './tenant/edit-delete-tenant/edit-delete-tenant.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { RoomDetailsGridComponent } from './room/room-details-grid/room-details-
     RegistrationComponent,
     AddRoomComponent,
     EditDeleteRoomComponent,
-    RoomDetailsGridComponent
+    RoomDetailsGridComponent,
+    AddTenantComponent,
+    EditDeleteTenantComponent
   ],
   imports: [
     BrowserModule
